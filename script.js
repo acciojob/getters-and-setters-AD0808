@@ -1,16 +1,13 @@
 //complete this code
+
+
 class Person {
   constructor(name, age) {
     this.namec = name;
     this.agec = age;
   }
-
   get name() {
     return this.namec;
-  }
-
-  get age() {
-    return this.agec;
   }
 
   set age(age) {
@@ -30,10 +27,8 @@ class Teacher extends Person {
   }
 }
 
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
-
-
-
