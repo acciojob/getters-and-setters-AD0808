@@ -1,16 +1,19 @@
-//complete this code
 class Person {
   constructor(name, age) {
-    this.namec = name;
-    this.agec = age;
-  }
-	
-  get name() {
-    return this.namec;
+    this._name = name;
+    this._age = age;
   }
 
-  set age(nage) {
-    return this.agec;
+  get name() {
+    return this._name;
+  }
+
+  get age() {
+    return this._age;
+  }
+
+  set age(age) {
+    this._age = age;
   }
 }
 
@@ -25,7 +28,6 @@ class Teacher extends Person {
     console.log(`${this.name} is teaching`);
   }
 }
-
 
 // Do not change the code below this line
 window.Person = Person;
