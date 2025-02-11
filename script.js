@@ -1,6 +1,4 @@
 //complete this code
-
-
 class Person {
   constructor(name, age) {
     this.namec = name;
@@ -8,6 +6,10 @@ class Person {
   }
   get name() {
     return this.namec;
+  }
+
+	get age() {
+    return this.agec;
   }
 
   set age(age) {
