@@ -4,16 +4,13 @@ class Person {
     this.namec = name;
     this.agec = age;
   }
+	
   get name() {
     return this.namec;
   }
 
-	get age() {
-    return this.agec;
-  }
-
   set age(nage) {
-    this.agec = nage;
+    return this.agec;
   }
 }
 
